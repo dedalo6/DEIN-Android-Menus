@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AritzPerezDeCirizaMenuOptionsMenu</string>
+    <string name="ajustes_action">Ajustes</string>
+    <string name="donar_action">Donar</string>
+    <string name="guardar_action">Guardar</string>
+    <string name="guardar_automatico_action">Guardar automaticamente</string>
+    <string name="salir_action">Salir</string>
+    <string name="buscar_action">Buscar</string>
+    <string name="guardar_png">Guardar como .png</string>
+    <string name="guardar_pdf">Guardar como .pdf</string>
+    <string name="guardar_jpg">Guardar como .jpg</string>
+    <string name="guardar_como_title">Guardar como</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+</resources>

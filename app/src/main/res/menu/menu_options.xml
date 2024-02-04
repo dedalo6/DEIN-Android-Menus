@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/ajustes_action"
+        android:icon="@drawable/icon_ajustes"
+        android:title="@string/ajustes_action"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="4"/>
+
+    <item
+        android:id="@+id/buscar_action"
+        android:icon="@drawable/icon_search"
+        android:orderInCategory="1"
+        android:title="@string/buscar_action"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/donar_action"
+        android:icon="@drawable/icon_donar"
+        android:title="@string/donar_action"
+        app:showAsAction="ifRoom|withText"
+        android:orderInCategory="2"
+        />
+    <item
+        android:id="@+id/guardar_action"
+        android:icon="@drawable/icon_guardar"
+        android:title="@string/guardar_action"
+        app:showAsAction="ifRoom|withText"
+        android:orderInCategory="3" />
+
+    <!--    <item-->
+    <!--        android:title="@string/guardar_como_title"-->
+    <!--        android:orderInCategory="5">-->
+
+    <!--        <menu >-->
+    <!--            <group android:checkableBehavior="single">-->
+    <!--                <item-->
+    <!--                    android:id="@+id/guardar_png"-->
+    <!--                    android:title="@string/guardar_png"-->
+    <!--                    android:orderInCategory="1"-->
+    <!--                    />-->
+    <!--                <item-->
+    <!--                    android:id="@+id/guardar_pdf"-->
+    <!--                    android:title="@string/guardar_pdf"-->
+    <!--                    android:orderInCategory="2"-->
+    <!--                    />-->
+    <!--                <item-->
+    <!--                    android:id="@+id/guardar_jpg"-->
+    <!--                    android:title="@string/guardar_jpg"-->
+    <!--                    android:orderInCategory="3"-->
+    <!--                    />-->
+    <!--            </group>-->
+    <!--        </menu>-->
+    <!--    </item>-->
+
+    <item
+        android:id="@+id/guardar_automatico_action"
+        android:icon="@drawable/icon_guardar"
+        android:title="@string/guardar_automatico_action"
+        android:checkable="true"
+        android:checked="false"
+        android:orderInCategory="6"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/salir_action"
+        android:icon="@drawable/icon_salir"
+        android:title="@string/salir_action"
+        android:orderInCategory="7"
+        app:showAsAction="never" />
+    <!--    ifRoom funciona incluso si lo pones debajo de uno sin ifRoom-->
+
+</menu>
